@@ -1,6 +1,5 @@
 const FoodService = require('../services/FoodService');
 
-// Mock the USDA provider to avoid making actual API calls during tests
 jest.mock('../services/providers/USDAProvider');
 
 describe('FoodService', () => {
