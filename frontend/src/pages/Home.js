@@ -182,13 +182,6 @@ const Home = () => {
                       </p>
                     </div>
                   </div>
-                  
-                  {result.searchResults && (
-                    <div className="mt-3 text-sm text-secondary">
-                      Found {result.searchResults} matching results
-                      {result.matchScore && ` (match score: ${result.matchScore}%)`}
-                    </div>
-                  )}
                 </div>
               </div>
             )}
